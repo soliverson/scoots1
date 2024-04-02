@@ -74,7 +74,18 @@
         .home span {
             display: flex;
             }
-
+            .contact-container {
+                margin-top: 0;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 10px;
+                grid-auto-rows: auto;
+                grid-template-areas:
+                  "title title"
+                  "contact-us form-container"
+                  "contact-us form-container"
+                  "map map";
+              }
             table {
                 border-collapse: collapse;
                 width: 100%;
@@ -98,6 +109,8 @@
                 background-color: #4CAF50;
                 color: white;
               }
-            
+
+              
+              
 }
 
